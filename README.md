@@ -1,4 +1,4 @@
-# Project: Post-processing of OCR (Optical Character Recognition) text files
+# Project4: Post-processing of OCR (Optical Character Recognition) text files
 
 ![image](figs/intro.png)
 
