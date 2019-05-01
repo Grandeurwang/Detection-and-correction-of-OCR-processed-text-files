@@ -8,8 +8,7 @@
 ### [Full Project Description](doc/project4_desc.md)
 
 
-Term: **Spring 2019**
-### Team members
+### Team members (group 6)
 + HyunBin Yoo hy2506@columbia.edu
 + Guanren Wang gw2380@columbia.edu
 + Andy Huang yh3090@columbia.edu
