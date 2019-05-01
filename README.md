@@ -3,7 +3,7 @@
 ### Background
 **OCR** is a technology that enables you to convert different types of documents (e.g., scanned documents, PDF files or images captured by a digital camera) into editable and searchable data. An OCR system consists of a pre-processing module, a word recognition module and a post-processing module, which are pipelined together to retrieve a relevant scanned document.
 
-![image](ocr_flowchart.png)
+![image](doc/ocr_flowchart.png)
 
 ### [Full Project Description](doc/project4_desc.md)
 
