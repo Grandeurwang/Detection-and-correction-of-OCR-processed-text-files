@@ -9,14 +9,14 @@
 
 
 + Team **Spring 2019**
-+ Team members
+###Team members
 	+ HyunBin Yoo hy2506@columbia.edu
 	+ Guanren Wang gw2380@columbia.edu
 	+ Andy Huang yh3090@columbia.edu
 	+ Feng Su fs2658@columbia.edu
 	+ Ying Jin yj2453@columbia.edu
 
-+ Project summary: 
+###Project summary: 
 
 In this project, we created an OCR post-processing procedure to enhance Tesseract OCR output. For dectection we used the D-3 method which includes feature engineering and training the Support Vector Machine (SVM) for the classification. First, we labelled tesseract using the ground truth, but we ignored the files with different number of lines and lines with different number of words. For the improvement, we could have implemented a way to include all the files and all the lines. Each feature was built using separate functions and Buildfeature fuction is used to aggregate all the features and to create a feature matrix. Then the result was fed into SVM for training. Training took about 30 mins. As a result, the weighted average precision is 0.83 and the weighed average recall is 0.84. Overall, the weighted average f1-score is 0.83.
 
@@ -31,7 +31,7 @@ We should be careful when we deal with the cases then the index of position of c
 
 We evaluated our algorithm using precision and recall, in both word level and character level. And the result shows that we improved the word precision from 0.67 to 0.77; word recall from 0.66 to 0.75; character precision from 0.94 to 0.96; character recall from 0.91 to 0.94, which is a significant enhancement to the tesseract.
 
-**Contribution statement**: 
+###Contribution statement: 
 
 HyunBin Yoo and Guanren Wang discussed on how to label the data for SVM training and which features would be appropriate as the features to SVM and developed the detection SVM model. HyunBin Yoo implemented the detection part algorithm in python. Guanren Wang checked the code for detection and pointed out the mistakes. Andy Huang, Feng Su and Ying Jin discussed, explored the correction model and designed, carried out the evaluation part. All team members contributed to the GitHub repository and prepared the presentation. As a presenter, HyunBin Yoo created the powerpoint slide. All team members approve our work presented in our GitHub repository including this contribution statement.
 	
